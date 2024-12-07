@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "User Age Tracker",
+  "version": "1.0",
+  "description": "Shows the user's age on a new tab and increases with each action.",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": {
+    "48": "icons/icon.png"
+  },
+  "author": "sm ehsan",
+  "homepage_url": "https://smehsan.com"
+}
+
