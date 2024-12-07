@@ -63,7 +63,7 @@ function startAgeCounter(birthDate) {
         const age = calculatePreciseAge(birthDate);
 
         // Display only years in the large format
-        document.getElementById('age').textContent = `${age.years} years`;
+        document.getElementById('age').textContent = `${age.years} Years`;
 
         // Display the full details (without years) in the detailed format
         document.getElementById('age-details').textContent = formatAgeDetails(age);
